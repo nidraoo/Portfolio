@@ -40,6 +40,8 @@ nav ul li a::after{ /*This is a CSS selector that applies styles to the ::after 
 }
 nav ul li a:hover::after{
     width:100%;
+    /* can change color by: 
+    color:rgb(48, 161, 161); */
 }
 .left{
     font-size:1.5rem;
@@ -47,16 +49,21 @@ nav ul li a:hover::after{
 .firstsection{
     display:flex;
     justify-content: space-around;
+    align-items:center;
     margin: 23px 0;
 }
-.firstsection div{
+.firstsection > div{
     width:30%;
 }
 .leftsection{
-    background-color: rgb(213, 174, 180);
+    font-size:2.8rem;
+    /*margin: 70px 0; not needed as align items center*/
 }
 .rightsection img{
     width:80%;
     margin: 50px 0;
     mix-blend-mode: screen;
+}
+.purple{
+    color:black
 }
