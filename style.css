@@ -26,6 +26,20 @@ nav ul li{
 nav ul li a{
     color: #fff;
     text-decoration: none;
+    position: relative;
+}
+nav ul li a::after{ /*This is a CSS selector that applies styles to the ::after pseudo-element of <a> tags inside <li> inside <ul> inside <nav>. */
+    content: '';
+    width:0;
+    height:3px;
+    background: rgb(219, 175, 206);
+    position:absolute;
+    left:0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width:100%;
 }
 .left{
     font-size:1.5rem;
