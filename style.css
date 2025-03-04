@@ -25,3 +25,17 @@ nav ul li{
 .left{
     font-size:1.5rem;
 }
+.firstsection{
+    display:flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+.firstsection div{
+    width:30%;
+}
+.leftsection{
+    background-color: rgb(213, 174, 180);
+}
+.rightsection{
+    background-color: rgb(213, 174, 180);
+}
