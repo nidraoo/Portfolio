@@ -14,3 +14,14 @@ nav{
     height:80px;
     background-color: rgb(151, 135, 164);
 }
+nav ul{
+    display: flex;
+    justify-content:center;
+}
+nav ul li{
+    list-style: none;
+    margin:0 23px;
+}
+.left{
+    font-size:1.5rem;
+}
